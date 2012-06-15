@@ -15,6 +15,9 @@
 		E05AC149151B969600AEDDBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC148151B969600AEDDBC /* AppDelegate.m */; };
 		E05AC14C151B969600AEDDBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05AC14B151B969600AEDDBC /* ViewController.m */; };
 		E05AC14F151B969600AEDDBC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05AC14D151B969600AEDDBC /* ViewController.xib */; };
+		E05AC156151BC31000AEDDBC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AC155151BC31000AEDDBC /* AddressBook.framework */; };
+		E05AC158151BC31400AEDDBC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05AC157151BC31400AEDDBC /* AddressBookUI.framework */; };
+		E0ADCB1A151BCB7800C06B91 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ADCB19151BCB7800C06B91 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		E05AC138151B969600AEDDBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05AC13A151B969600AEDDBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05AC13C151B969600AEDDBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05AC140151B969600AEDDBC /* Composer-Info.plist */ = {isa = PBXFileReference; path = "Composer-Info.plist"; sourceTree = "<group>"; };
+		E05AC140151B969600AEDDBC /* Composer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Composer-Info.plist"; sourceTree = "<group>"; };
 		E05AC142151B969600AEDDBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05AC144151B969600AEDDBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05AC146151B969600AEDDBC /* Composer-Prefix.pch */ = {isa = PBXFileReference; path = "Composer-Prefix.pch"; sourceTree = "<group>"; };
-		E05AC147151B969600AEDDBC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05AC146151B969600AEDDBC /* Composer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Composer-Prefix.pch"; sourceTree = "<group>"; };
+		E05AC147151B969600AEDDBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05AC148151B969600AEDDBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E05AC14A151B969600AEDDBC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05AC14A151B969600AEDDBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E05AC14B151B969600AEDDBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E05AC14E151B969600AEDDBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05AC155151BC31000AEDDBC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E05AC157151BC31400AEDDBC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E0ADCB19151BCB7800C06B91 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E0ADCB1C151BCF3700C06B91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ADCB1A151BCB7800C06B91 /* MessageUI.framework in Frameworks */,
+				E05AC158151BC31400AEDDBC /* AddressBookUI.framework in Frameworks */,
+				E05AC156151BC31000AEDDBC /* AddressBook.framework in Frameworks */,
 				E05AC139151B969600AEDDBC /* UIKit.framework in Frameworks */,
 				E05AC13B151B969600AEDDBC /* Foundation.framework in Frameworks */,
 				E05AC13D151B969600AEDDBC /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +77,9 @@
 		E05AC137151B969600AEDDBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0ADCB19151BCB7800C06B91 /* MessageUI.framework */,
+				E05AC157151BC31400AEDDBC /* AddressBookUI.framework */,
+				E05AC155151BC31000AEDDBC /* AddressBook.framework */,
 				E05AC138151B969600AEDDBC /* UIKit.framework */,
 				E05AC13A151B969600AEDDBC /* Foundation.framework */,
 				E05AC13C151B969600AEDDBC /* CoreGraphics.framework */,
@@ -132,6 +145,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = E05AC129151B969600AEDDBC;
 			productRefGroup = E05AC135151B969600AEDDBC /* Products */;
@@ -173,6 +187,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E05AC142151B969600AEDDBC /* en */,
+				E0ADCB1C151BCF3700C06B91 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -274,6 +289,7 @@
 				E05AC154151B969600AEDDBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
